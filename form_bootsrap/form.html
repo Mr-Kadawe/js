@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-body bg-primary">
+                <div class="row">
+                    <h3 class="text-white text-center text-uppercase">Form Bootstrap</h3>
+                </div>
+
+                <form action="">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name" class="text-white">Name</label>
+                                <input type="text" class="form-control" id="name" name="name">
+                                <label for="" id="val_name"></label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="phone" class="text-white">Phone</label>
+                                <input type="text" id="phone" name="phone" class="form-control">
+                                <label for="" id="val_phone"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="email" class="text-white">Email</label>
+                                <input type="email" name="email" id="email" class="form-control">
+                                <label for="" id="val_email"></label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="password" class="text-white">Password</label>
+                                <input type="password" name="password" id="password" class="form-control">
+                                <label for="" id="val_password"></label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="age" class="text-white">Age</label>
+                                <input type="number" name="age" id="age" class="form-control">
+                                <label for="" id="val_age"></label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="address" class="text-white">Address</label>
+                                <input type="text" name="address" id="address" class="form-control">
+                                <label for="" id="val_address"></label>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="date" class="text-white">Date</label>
+                                <input type="date" name="date" id="date" class="form-control">
+                                <label for="" id="val_date"></label>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="country" class="text-white">Country</label>
+                                <select name="country" id="country" class="form-control">
+                                    <option value="">select country</option>
+                                    <option value="Somalia">Somalia</option>
+                                    <option value="Djabouti">Djabouti</option>
+                                    <option value="Turkey">Turkey</option>
+                                    <option value="Kenya">Kenya</option>
+                                    <option value="Ethopia">Ethopia</option>
+                                </select>
+                                <label for="" id="val_country"></label>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="float-end mt-3">
+                        <!-- <button class="btn btn-success">Submit</button>
+                        <button class="btn btn-danger">Reset</button>
+                         
+                        <button class="btn btn-outline-info">Submit 1</button>
+                        <button class="btn btn-outline-danger">Reset1</button> -->
+
+                        <button type="button" id="btn_submit" class="btn btn-info rounded-pill">Submit </button>
+                        <button type="reset" class="btn btn-danger rounded-pill ">Reset </button>
+
+
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <!-- Labels Keyup Inputs -->
+            <!-- <label for="" class="name"></label>
+            <label for="" class="phone"></label>
+            <label for="" class="email"></label>
+            <label for="" class="password"></label>
+            <label for="" class="age"></label>
+            <label for="" class="address"></label>
+            <label for="" class="date"></label>
+            <label for="" class="country"></label> -->
+
+
+            <!-- Labels After Submit Button -->
+
+            <!-- <label for="" id="name_val"></label>
+            <label for="" id="phone_val"></label>
+            <label for="" id="email_val"></label>
+            <label for="" id="password_val"></label>
+            <label for="" id="age_val"></label>
+            <label for="" id="address_val"></label>
+            <label for="" id="date_val"></label>
+            <label for="" id="country_val"></label> -->
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+    <!-- online link(js or css) to convert offline ctrl + click to link then save to folder -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="jquery/jquery-3.6.4.js"></script>
+
+    <!-- Inputs Keyup Or change -->
+    <script>
+        $(document).ready(function () {
+            // $("#btn_submit").attr('disabled', true);
+
+            let date = new Date();
+            // alert(date.getDate())
+            // alert(date.getFullYear())
+            // alert(date.getMonth())
+            let today_date = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
+            // alert(today_date)
+
+
+
+            // input (name) keyup
+
+            $("#name").keyup(function () {
+                let name = $('#name').val();
+                let this_name = $(this).val();
+                // alert(this_name)
+                $(".name").text(this_name);
+            })
+
+            $('#phone').on('keyup', function () {
+                let phone = $(this).val();
+                // alert(phone);
+                $(".phone").text(phone);
+            })
+
+
+            $("#email").on('keyup', function () {
+                let email = $(this).val();
+                // alert(email);
+                $(".email").html(email);
+            })
+
+
+            $("#country").change(function () {
+                let country = $(this).val();
+                // alert(country);
+                $('.country').html(country);
+            })
+
+            $('#date').on('change', function () {
+                let date = $(this).val();
+                // alert(date);
+                $('.date').text(date);
+
+            })
+
+            // $('#date').on('keyup', function(){
+            //     alert("date")
+            // })
+
+
+            $("#age").on('keyup change', function () {
+                // alert('age')
+                let age = $(this).val();
+
+                $('.age').text(age);
+
+            })
+
+            // ?
+            $('#address').on('change keyup', function () {
+                // alert("address")
+                let address = $(this).val();
+
+                $(".address").text(address);
+            })
+
+
+
+
+            // alert("Hello Jquery");
+        })
+    </script>
+
+
+    <!-- Script country change -->
+    <script>
+        $(document).ready(function () {
+            $("#country").on('change', function () {
+                // alert("country")
+                let country = $(this).val();
+                if (country == 'Somalia') {
+                    let name = $("#name").val();
+                    let phone = $("#phone").val();
+                    let email = $("#email").val();
+                    let password = $("#password").val();
+                    let age = $("#age").val();
+                    let address = $("#address").val();
+                    let date = $("#date").val();
+
+                    if (name == '' || phone == '' || email == '' || password == '' || age == '' || address == '' || date == '') {
+                        alert('Please fill the blank');
+                        $(this).val("");
+
+                        if (name == '') {
+                            $("#name").focus();
+                            $("#name").css({
+                                'background-color': 'red'
+                            })
+                        } else if (phone == '') {
+                            $("#phone").focus();
+                            $("#phone").css({
+                                'background-color': 'red'
+                            })
+                        } else if (email == '') {
+                            $("#email").focus();
+                            $("#email").css({
+                                'background-color': 'red'
+                            })
+                        } else if (password == '') {
+                            $("#password").focus();
+                            $("#password").css({
+                                'background-color': 'red'
+                            })
+                        } else if (age == '') {
+                            $("#age").focus();
+                            $("#age").css({
+                                'background-color': 'red'
+                            })
+                        }
+
+                    } else {
+                        $('#btn_submit').attr('disabled', false);
+                    }
+
+
+                }
+            })
+
+        })
+    </script>
+
+
+<!-- Script submit button -->
+
+    <script>
+        function validateEmail(email) 
+    {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+       $(document).ready(function(){
+        $('#btn_submit').click(function(){
+            // alert("hello")
+            let name = $("#name").val();
+            let phone = $("#phone").val();
+            let  email = $("#email").val();
+            let  password = $("#password").val();
+            let  age = $("#age").val();
+            let  address = $("#address").val();
+            let  date = $("#date").val();
+            let  country = $("#country").val();
+
+            // alert(name);
+
+            $("#val_name").text("");
+            $("#val_phone").text("");
+            $("#val_email").text("");
+            $("#val_password").text("");
+            $("#val_age").text("");
+            $("#val_address").text("");
+            $("#val_date").text("");
+            $("#val_country").text("");
+
+            if(name == ''){
+                $("#name").focus();
+                $("#val_name").text("Name is required! Please enter name");
+                $("#val_name").css({'color': 'red' })
+            }else if(phone == '') {
+                $("#phone").focus();
+                $("#val_phone").text("Phone is required! Please Enter phone");
+                $("#val_phone").css({"color":'red'});
+            }else if(email == ''){
+                $("#email").focus();
+                $("#val_email").text("email is required! Please Enter email");
+                $("#val_email").css({"color":'red'});
+            }else if(password == ''){
+                $("#password").focus();
+                $("#val_password").text("password is required! Please Enter password");
+                $("#val_password").css({"color":'red'});
+            }else if(age == ''){
+                $("#age").focus();
+                $("#val_age").text("age is required! Please Enter age");
+                $("#val_age").css({"color":'red'});
+            }else if(address == ''){
+                $("#address").focus();
+                $("#val_address").text("address is required! Please Enter address");
+                $("#val_address").css({"color":'red'});
+            }else if(date == ''){
+                $("#date").focus();
+                $("#val_date").text("date is required! Please Enter date");
+                $("#val_date").css({"color":'red'});
+            }else if(country == ""){
+                $("#country").focus();
+                $("#val_country").text("country is required! Please Enter country");
+                $("#val_country").css({"color":'red'});
+            }
+
+
+            if(validateEmail(email)){
+                // alert("ok")
+                $("#email").focus();
+                $("#val_email").text("Valid Email!");
+                $("#val_email").css({'color': 'green'})
+            }else{
+                $("#email").focus();
+                $("#val_email").text("Invalid Email! (:");
+                $("#val_email").css({'color': 'red'})
+            }
+
+
+        })
+       })
+    </script>
+
+
+
+
+</body>
+
+</html>
